@@ -5,6 +5,10 @@
 ```
 pip install nonebot-plugin-read-60s 
 ```
+不要忘记在bot.py里加入
+```
+nonebot.load_plugin("nonebot_plugin_read_60s")
+```
 在nonebot的env配置文件中输入以下内容
 ```
 LEETCODE_QQ_FRIENDS=[12345678,123456]#设定要发送的QQ好友
