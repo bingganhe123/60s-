@@ -4,14 +4,8 @@ from nonebot import require
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 import json
 import nonebot
-from nonebot.adapters.onebot.v11 import (
-    GROUP,
-    PRIVATE_FRIEND,
-    Bot,
-    Message,
-    MessageEvent,
-    PrivateMessageEvent,
-)
+from nonebot.adapters.onebot.v11 import   Message
+
 
 global_config = nonebot.get_driver().config
 nonebot.logger.info("global_config:{}".format(global_config))
