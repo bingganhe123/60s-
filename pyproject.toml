@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nonebot_plugin_read_60s"
+version = "0.1.7"
+description = "nb2"
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7.3"
+nonebot2 = "^2.0.0-beta.1"
+typer = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+nb-cli = "^0.6.0"
+
+[tool.nonebot]
+plugins = [
+    "nonebot_plugin_covid19_news"
+]
+plugin_dirs = ["src/plugins"]
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
