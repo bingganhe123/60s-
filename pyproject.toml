@@ -1,9 +1,11 @@
 [tool.poetry]
 name = "nonebot_plugin_read_60s"
 version = "0.1.7"
-description = "nb2"
+description = "Regularly send 60s daily reading world to friends in the specified group or list"
 authors = []
 readme = "README.md"
+repository = "https://github.com/bingganhe123/60s-"
+packages = [{ include = 'nonebot_plugin_read_60s' }]
 
 [tool.poetry.dependencies]
 python = "^3.7.3"
@@ -15,7 +17,7 @@ nb-cli = "^0.6.0"
 
 [tool.nonebot]
 plugins = [
-    "nonebot_plugin_covid19_news"
+    "nonebot_plugin_read_60s"
 ]
 plugin_dirs = ["src/plugins"]
 
