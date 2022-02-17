@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot_plugin_read_60s"
-version = "0.1.7"
+version = "0.1.9"
 description = "Regularly send 60s daily reading world to friends in the specified group or list"
 authors = []
 readme = "README.md"
