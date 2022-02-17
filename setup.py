@@ -33,12 +33,7 @@ setup(
                         'AsyncIOScheduler',
                         'json',
                         'nonebot',
-                        'GROUP',
-                        'PRIVATE_FRIEND',
-                        'Bot',
                         'Message',
-                        'MessageEvent',
-                        'PrivateMessageEvent',
                         'BaseSettings',
                         'Extra',
                         'Field'
