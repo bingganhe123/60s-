@@ -2,7 +2,7 @@
 # 定时向指定群或列表好友发送每日60s读世界
 # 配置方法
 # 注意 使用本插件前，需要在商店下载nonebot_plugin_apscheduler（APScheduler 定时任务插件）
-下载方式
+60s读世界下载方式
 ```
 pip install nonebot-plugin-read-60s 
 ```
