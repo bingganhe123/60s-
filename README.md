@@ -4,7 +4,7 @@
 # 注意 使用本插件前，需要在商店下载nonebot_plugin_apscheduler（APScheduler 定时任务插件）
 60s读世界下载方式
 ```
-pip install nonebot-plugin-read-60s 
+pip install nonebot_plugin_read_60s 
 ```
 不要忘记在bot.py里加入
 ```
