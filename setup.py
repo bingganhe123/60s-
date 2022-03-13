@@ -3,19 +3,17 @@ from setuptools import setup, find_packages
 
 setup(
     name = "nonebot-plugin-read_60s",
-    version = "0.2.2",
-    keywords = ("pip", "pathtool","timetool", "magetool", "mage"),
-    description = "time and path tool",
-    long_description = "time and path tool",
+    version = "0.2.4",
+    description = "Send news pictures to friends or group chat",
     license = "MIT Licence",
 
-    url = "https://github.com/fengmm521/pipProject",
-    author = "mage",
-    author_email = "mage@woodcol.com",
+    url = "https://github.com/bingganhe123/60s-",
+    author = "bingganhe",
+    author_email = "3143799170@qq.com",
 
     packages = find_packages(),
     include_package_data = True,
-    platforms = "any",
+    python_requires='>=3.9, <4',
     zip_safe = False,
     install_requires = [
         'nonebot-plugin-apscheduler>=0.1.2',
