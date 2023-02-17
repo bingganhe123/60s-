@@ -2,8 +2,8 @@ from pydantic import BaseSettings, Extra, Field
 
 
 class Time(BaseSettings):
-    hour: int = Field(0,alias="HOUR")
-    minute: int = Field(0,alias="MINUTE")
+    hour: int = Field(0,env="HOUR")
+    minute: int = Field(0,env="MINUTE")
 
     class Config:
         extra = "allow"
